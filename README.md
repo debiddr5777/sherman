@@ -58,12 +58,21 @@ Usage
 
 After installation (open a new shell or run `source ~/.bashrc`), run:
 
-# Sherman - Interactive Linux Uninstaller Tool
+Sherman — simple interactive uninstaller
 
-**Sherman** is a sophisticated, interactive uninstaller for Linux.
-It detects non-core services, APT packages, Snap packages, and Flatpak apps.
-It provides a live fuzzy search UI, safe backup of configs, and tools to purge selected software.
+Want to quickly install Sherman and try it? Run the single command below from any directory. It will clone this repo into your current folder and run the small installer.
 
+Copy & paste this one-liner into your terminal:
+
+```bash
+git clone https://github.com/debiddr5777/sherman.git && cd sherman && bash install.sh
+```
+
+After the installer finishes, open a new terminal (or run `source ~/.bashrc`) and run:
+
+  sherman
+
+That's it — simple and quick.
 ---
 
 ## 🚀 One-line Installation & Setup
