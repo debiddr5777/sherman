@@ -1,7 +1,17 @@
 #!/usr/bin/env bash
-# Sherman - Sophisticated Uninstaller Tool with live search
-# v2.0  - Removes user-installed services/packages thoroughly
-# Usage: sherman.sh [options]
+
+# ===============================================================
+#   ____  _               _                      _             
+#  / ___|| |__   ___  ___| | _____ _ __ ___  ___| |_ ___  _ __ 
+#  \___ \| '_ \ / _ \/ __| |/ / _ \ '__/ __|/ _ \ __/ _ \| '__|
+#   ___) | | | |  __/ (__|   <  __/ |  \__ \  __/ || (_) | |   
+#  |____/|_| |_|\___|\___|_|\_\___|_|  |___/\___|\__\___/|_|   
+#
+#  Sherman - interactive uninstaller (live search)
+#  v2.0  - Removes user-installed services/packages thoroughly
+#  Usage: sherman.sh [options]
+# ===============================================================
+
 
 set -euo pipefail
 IFS=$'\n\t'
