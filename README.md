@@ -20,4 +20,4 @@ Copy and paste the following in your terminal. It will:
 sudo apt update && sudo apt install -y fzf
 
 # Download Sherman, make it executable, add to PATH, and show help
-mkdir -p ~/tools && curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/sherman/main/sherman.sh -o ~/tools/sherman.sh && chmod +x ~/tools/sherman.sh && echo 'export PATH=$PATH:~/tools' >> ~/.bashrc && source ~/.bashrc && sherman.sh --help
+mkdir -p ~/sherman && curl -fsSL https://raw.githubusercontent.com/debiddr5777/sherman/main/sherman.sh -o ~/tools/sherman.sh && chmod +x ~/tools/sherman.sh && echo 'export PATH=$PATH:~/tools' >> ~/.bashrc && source ~/.bashrc && sherman.sh --help
